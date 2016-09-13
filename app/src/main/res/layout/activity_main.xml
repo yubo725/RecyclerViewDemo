@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="3dp"
+    tools:context="com.test.testrecyclerview.MainActivity">
+
+    <Button
+        android:onClick="normalListView"
+        android:text="普通ListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="hGridView"
+        android:text="水平GridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="vGridView"
+        android:text="垂直GridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="waterFall"
+        android:text="瀑布流"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
